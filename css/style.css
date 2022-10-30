@@ -1,0 +1,53 @@
+@import url("https : //fonts.googleapis.com/css2?family=Lora & display = swapfamille= Roboto+Serif:opsz,wght@8..144,300 ");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+	font-family:'Lora', serif ;
+	font-size : 18px;
+	margin :0px;	
+}
+h1,h2,h3 {
+	font-family: Roboto Serif',serif;
+	font-weight: bold;
+}
+a{
+ text-decoration: none;
+ }
+  
+.button-1 {
+  background-color: #00adb5;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 40px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #00888f;
+}
